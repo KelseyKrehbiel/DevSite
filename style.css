@@ -14,8 +14,8 @@ header,body,footer{
 
 article{
     background-color: #E0FBFC;
-    width: 70%;
-    margin: 5px;
+    width : 70%;
+    margin: auto;
     padding-top: 0px;
     padding-bottom: 15px;
 }
@@ -25,7 +25,7 @@ h1,h2,h3 .headings{
     color: #293241;
 }
 
-p{
+article > p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 16;
