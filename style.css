@@ -43,9 +43,9 @@ article > p{
 }
 
 footer > div{
-    width: 300px;
     margin: auto;
     height: auto;
+    padding-bottom: 15px;
 }
 /*change linkk color based on mouse activity*/
 a:visited { color: #3D5A80; }
@@ -54,9 +54,6 @@ a:active  { color: #98C1D9; }
 
 div > ol,ul.list{
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: contain;
 }
 
 hr{
