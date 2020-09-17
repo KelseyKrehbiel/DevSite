@@ -7,9 +7,14 @@
     box-sizing: border-box;
 }
 
-header,body,footer{
-    background-color: #3D5A80;
+header,footer{
+    background-color: #EE6C4D;
     text-align: center;
+}
+
+body > div{
+    margin: auto;
+    background-color: #3D5A80;
 }
 
 article{
@@ -18,7 +23,6 @@ article{
     margin: auto;
     padding-top: 0px;
     padding-bottom: 15px;
-    border-radius: 30%;
 }
 
 h1,h2,h3 .headings{
@@ -33,7 +37,10 @@ article > p{
 }
 
 footer > div{
-    border-radius: 30%;
+    width: 30%;
+    margin: auto;
+    height: auto;
+    background-color: #E0FBFC;
 }
 
 hr{
