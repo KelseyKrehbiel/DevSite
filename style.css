@@ -12,9 +12,12 @@ header,footer{
     text-align: center;
 }
 
-body > div{
-    margin: auto;
+body{
     background-color: #3D5A80;
+}
+
+div{
+    margin: auto;
 }
 
 article{
@@ -28,12 +31,14 @@ article{
 h1,h2,h3 .headings{
     font-family: Arial, Helvetica, sans-serif;
     color: #293241;
+    text-align: center;
 }
 
 article > p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 16;
+    color: #293241;
 }
 
 footer > div{
@@ -44,5 +49,5 @@ footer > div{
 }
 
 hr{
-    color: orangered;
+    color: #EE6C4D;
 }
