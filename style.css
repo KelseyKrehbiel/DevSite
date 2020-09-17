@@ -48,6 +48,13 @@ a:visited { color: #3D5A80; }
 a:hover   { color: #E0FBFC; }
 a:active  { color: #98C1D9; }
 
+.list{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+}
+
 hr{
     color: #EE6C4D;
 }
