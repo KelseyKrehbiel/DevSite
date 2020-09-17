@@ -5,15 +5,21 @@
 /* Set ALL HTML elements with border-box sizing */
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header,footer{
     background-color: #EE6C4D;
     text-align: center;
+    color: #293241;
 }
 
 body{
     background-color: #3D5A80;
+    background-image: "media/images/orange-backlit-keyboard.jpg";
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 div{
@@ -29,14 +35,12 @@ article{
 }
 
 h1,h2,h3 .headings{
-    font-family: Arial, Helvetica, sans-serif;
     color: #293241;
     text-align: center;
 }
 
 article > p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: justify;
     font-size: 16;
     color: #293241;
 }
@@ -45,7 +49,6 @@ footer > div{
     width: 30%;
     margin: auto;
     height: auto;
-    background-color: #E0FBFC;
 }
 
 hr{
